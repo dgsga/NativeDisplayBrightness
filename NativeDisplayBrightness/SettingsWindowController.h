@@ -18,18 +18,5 @@
 @property (weak) IBOutlet NSPopUpButton *decreaseBrightnessKey;
 @property (weak) IBOutlet NSPopUpButton *maxBrightness;
 
-@property (weak) IBOutlet NSButton *adjustColorTemperature;
-@property (weak) IBOutlet NSTextField *colorTemperatureLimitLabel;
-@property (weak) IBOutlet NSSlider *colorTemperatureLimit;
-
-@property (weak) IBOutlet NSTextField *colorTemperatureLessWarmLabel;
-@property (weak) IBOutlet NSTextField *colorTemperatureMoreWarmLabel;
-
-@property (weak) IBOutlet NSTextField *colorTemperatureLessWarmKeyLabel;
-@property (weak) IBOutlet NSPopUpButton *colorTemperatureLessWarmKey;
-
-@property (weak) IBOutlet NSTextField *colorTemperatureMoreWarmKeyLabel;
-@property (weak) IBOutlet NSPopUpButton *colorTemperatureMoreWarmKey;
-
 
 @end
